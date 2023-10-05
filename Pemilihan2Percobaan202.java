@@ -20,9 +20,17 @@ public class Pemilihan2Percobaan202 {
             {
                 System.out.println("Segitiga tersebut adalah segitiga siku-siku");
             }
+            else if ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60))
+            {
+                System.out.println("Segitiga tersebut adalah segitiga sama sisi");
+            }
+            else if ((sudut1 == sudut2) || (sudut2 == sudut3) || (sudut3 == sudut1))
+            {
+                System.out.println("Segitiga tersebut adalah segitiga sama kaki");
+            }
             else 
             {
-                System.out.println("Segitiga tersebut adalah bukan segitiga siku-siku");
+                System.out.println("Segitiga tersebut adalah segitiga sembarang");
             }
         }
         else 
